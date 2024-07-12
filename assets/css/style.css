@@ -1,0 +1,45 @@
+body {
+  display: block;
+  background-color: black;
+  color: white;
+}
+body h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 60px;
+}
+body .container {
+  text-align: center;
+  display: block;
+  max-width: 300px;
+  margin: 10px auto;
+  border: 2px solid rgba(0, 255, 42, 0.7882352941);
+  border-radius: 2%;
+  padding: 5rem;
+}
+body .container .valore {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+body .container .btn-container {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+body .container .btn-container .btn {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: semibold;
+  font-size: 2vw;
+  cursor: pointer;
+  max-height: 50px;
+  padding: 10px;
+  background-color: rgba(0, 255, 42, 0.7882352941);
+  color: white;
+}
+body .container .btn-container .btn:hover {
+  opacity: 90%;
+}/*# sourceMappingURL=style.css.map */
