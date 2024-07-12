@@ -1,0 +1,53 @@
+$primary-color: #00ff2ac9;
+
+body {
+    display: block;
+    background-color: black;
+    color: white;
+
+    h1 {
+        text-align: center;
+        margin: 30px;
+        font-size: 60px;
+    }
+
+    .container {
+        text-align: center;
+        display: block;
+        max-width: 300px;
+        margin: 10px auto;
+        border: 2px solid $primary-color;
+        border-radius: 2%;
+        padding: 5rem;
+
+        .valore {
+            font-size: 6rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn-container {
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            .btn {
+                padding: 10px;
+                border: 1px solid white;
+                border-radius: 10px;
+                font-weight: semibold;
+                font-size: 2vw;
+                cursor: pointer;
+                max-height: 50px;
+                padding: 10px;
+                background-color: $primary-color;
+                color: white;
+
+                &:hover {
+                    opacity: 90%;
+                }
+            }
+        }
+    }
+}
