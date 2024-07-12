@@ -5,7 +5,7 @@ body {
 }
 body h1 {
   text-align: center;
-  margin: 30px;
+  margin: 20px;
   font-size: 60px;
 }
 body .container {
@@ -15,7 +15,7 @@ body .container {
   margin: 10px auto;
   border: 2px solid rgba(0, 255, 42, 0.7882352941);
   border-radius: 2%;
-  padding: 5rem;
+  padding: 3rem;
 }
 body .container .valore {
   font-size: 6rem;
