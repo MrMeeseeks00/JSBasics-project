@@ -4,4 +4,4 @@ Il design è molto basic con poche righe di css.
 
 ![counter](https://github.com/user-attachments/assets/2128c50b-5d85-4650-98fb-d0f6d59cdb6b)
 
-Ecco il link per provare il progetto: [JSBasics-Counter](jsbasics-start2impact.web.app)
+Ecco il link per provare il progetto: [JSBasics-Counter](https://jsbasics-start2impact.web.app)
