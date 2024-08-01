@@ -1,4 +1,4 @@
-/* $primary-color: violet; */
+/* $primary-color: #00ff2ac9; */
 body {
   display: block;
   background-color: black;
@@ -14,7 +14,7 @@ body .container {
   display: block;
   max-width: 300px;
   margin: 10px auto;
-  border: 2px solid rgba(0, 255, 42, 0.7882352941);
+  border: 2px solid violet;
   border-radius: 2%;
   padding: 3rem;
 }
@@ -38,7 +38,7 @@ body .container .btn-container .btn {
   cursor: pointer;
   max-height: 50px;
   padding: 10px;
-  background-color: rgba(0, 255, 42, 0.7882352941);
+  background-color: violet;
   color: white;
 }
 body .container .btn-container .btn:hover {
