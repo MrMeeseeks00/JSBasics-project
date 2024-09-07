@@ -1,23 +1,25 @@
 /* $primary-color: #00ff2ac9; */
-$primary-color: violet;
+$primary-color: hsl(212, 19, 46);
 
 body {
     display: block;
-    background-color: black;
+    background-color: #121212;
     color: white;
 
     h1 {
         text-align: center;
-        margin: 20px;
+        margin: 0;
         font-size: 60px;
+        background-color: hsl(210, 27, 12);
     }
 
     .container {
+        background-color: hsl(0, 0, 22);
         text-align: center;
         display: block;
         max-width: 300px;
         margin: 10px auto;
-        border: 2px solid $primary-color;
+        /* border: 2px solid $primary-color; */
         border-radius: 2%;
         padding: 3rem;
 

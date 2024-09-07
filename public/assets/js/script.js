@@ -1,3 +1,14 @@
+//Creazione titolo
+let titolo = document.createElement('h1');
+titolo.textContent = 'Counter';
+document.body.appendChild(titolo);
+
+//Creazione container
+let container = document.createElement('div');
+container.id = 'container';
+container.className = 'container'; 
+document.body.appendChild(container);
+
 //Creazione valore del counter
 let valore = document.createElement('label');
 valore.id = 'valore';
@@ -25,11 +36,10 @@ btnContainer.appendChild(pulsanteReset);
 btnContainer.appendChild(pulsantePiu);
 
 //Aggiunta elementi nel container
-let container = document.getElementById('container');
 container.appendChild(valore);
 container.appendChild(btnContainer);
 
-//Creazione funzione incremento e decremento
+//Creazione funzione incremento, decremento e reset
 let count = 0;
 
 pulsantePiu.addEventListener('click', function() {

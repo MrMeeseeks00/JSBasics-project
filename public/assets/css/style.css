@@ -1,20 +1,22 @@
 /* $primary-color: #00ff2ac9; */
 body {
   display: block;
-  background-color: black;
+  background-color: #121212;
   color: white;
 }
 body h1 {
   text-align: center;
-  margin: 20px;
+  margin: 0;
   font-size: 60px;
+  background-color: hsl(210, 27%, 12%);
 }
 body .container {
+  background-color: hsl(0, 0%, 22%);
   text-align: center;
   display: block;
   max-width: 300px;
   margin: 10px auto;
-  border: 2px solid violet;
+  /* border: 2px solid $primary-color; */
   border-radius: 2%;
   padding: 3rem;
 }
@@ -38,7 +40,7 @@ body .container .btn-container .btn {
   cursor: pointer;
   max-height: 50px;
   padding: 10px;
-  background-color: violet;
+  background-color: hsl(212, 19%, 46%);
   color: white;
 }
 body .container .btn-container .btn:hover {
