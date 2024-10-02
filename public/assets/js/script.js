@@ -10,7 +10,7 @@ container.className = 'container';
 document.body.appendChild(container);
 
 //Creazione valore del counter
-let valore = document.createElement('label');
+let valore = document.createElement('div');
 valore.id = 'valore';
 valore.className = 'valore';
 valore.textContent = '0';
